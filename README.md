@@ -13,7 +13,7 @@ The container will produce an automatic batch of 8-12 invoices each 3 hours inte
 
 * docker exec -it starkbank-teste-demo /app/app/misc/send_invoice_batch_demo.sh
 
-It is also to send invoice manually through the endpoint https://matsuoka.ngrok.app/api/invoice
+It is also possible to send invoice manually through the endpoint https://matsuoka.ngrok.app/api/invoice
 
 Processing returns from Stark Bank are received in the following webhook while the service is active in docker:
 https://matsuoka.ngrok.app/api/webhook
