@@ -26,5 +26,8 @@ https://matsuoka.ngrok.app/api/webhook
 
 3) Sensitive data defined in ENV variables file (.env)
 
+4) To run unit tests use :
+*   pytest app\tests -v
+
 If you have any questions, please contact: regis@matsuokadasilva.com
 
